@@ -1,1 +1,41 @@
+<!--
+    Jonathan Kang
+    Wenjin Zhou
+    COMP4610 Homework 5
+    index.html
+
+    This is a very basic HTML skeleton of the program. You can see the implementation of the JQuery scripts as well as the png images that are used
+    for the scrabble game. 
+-->
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabble Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Scrabble Demo</h1>
+    </header>
+    <div id="game-container">
+        <div id="scrabble-board">
+            <img src="images/Scrabble_Board_OneLine.png" alt="Scrabble Board">
+        </div>
+        <div id="tile-holder">
+            <img src="images/scrabble-tile-holder-406774_640.png" alt="Tile Holder">
+            <div id="tiles"></div>
+        </div>
+        <button id="draw-tiles-button">Draw Tiles</button>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2024 by Jonathan Kang. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.</p>
+</footer>
+</html>
